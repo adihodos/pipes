@@ -2,7 +2,7 @@
 #include <utility>
 #include <vector>
 
-#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 #include "pipes/map_aggregator.hpp"
 
 std::string concatenateStrings(std::string const& s1, std::string const& s2)

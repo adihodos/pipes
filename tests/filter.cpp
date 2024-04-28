@@ -1,6 +1,6 @@
 #include <algorithm>
 
-#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 #include "pipes/filter.hpp"
 #include "pipes/override.hpp"
 #include "pipes/push_back.hpp"

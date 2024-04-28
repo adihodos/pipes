@@ -1,4 +1,4 @@
-#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 #include "pipes/helpers/FWD.hpp"
 #include "pipes/transform.hpp"
 #include "pipes/push_back.hpp"

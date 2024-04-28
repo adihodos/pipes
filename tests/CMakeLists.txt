@@ -1,5 +1,6 @@
+CPMAddPackage("gh:catchorg/Catch2@3.5.4")
+
 add_executable(pipes_test
-    main.cpp
     adjacent.cpp
     cartesian_product.cpp
     combinations.cpp
@@ -36,6 +37,7 @@ target_include_directories(pipes_test PRIVATE
                            $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>)
 
 target_compile_features(pipes_test PRIVATE cxx_std_14)
+target_link_libraries(pipes_test PRIVATE Catch2::Catch2WithMain)
 
 target_compile_options(pipes_test
                        PRIVATE $<$<CXX_COMPILER_ID:MSVC>:/std:c++17>

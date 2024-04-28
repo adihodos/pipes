@@ -1,6 +1,10 @@
 #ifndef PIPES_OPTIONAL_HPP
 #define PIPES_OPTIONAL_HPP
 
+#if __cplusplus >= 201703L
+#include <optional>
+#endif
+
 #include <type_traits>
 
 namespace pipes

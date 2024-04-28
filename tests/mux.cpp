@@ -1,4 +1,4 @@
-#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 #include "pipes/pipes.hpp"
 
 TEST_CASE("mux can send info from several ranges to transform")

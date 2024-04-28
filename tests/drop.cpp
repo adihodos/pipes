@@ -1,4 +1,4 @@
-#include "catch.hpp"
+#include <catch2/catch_test_macros.hpp>
 #include "pipes/pipes.hpp"
 
 TEST_CASE("drop ignores the first N elements and passes on the elements after")
